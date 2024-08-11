@@ -373,3 +373,8 @@ It would greatly help if you could contribute to bringing all of these forks int
     * Docker compatible
   * Cons
     * Requires Terraform directory to be init, or else it will not work (even in Docker it also needs init)
+
+
+# Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ianyliu/blast-radius-fork&type=Date)](https://star-history.com/#ianyliu/blast-radius-fork&Date)
