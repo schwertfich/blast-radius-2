@@ -377,4 +377,10 @@ It would greatly help if you could contribute to bringing all of these forks int
 
 # Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ianyliu/blast-radius-fork&type=Date)](https://star-history.com/#ianyliu/blast-radius-fork&Date)
+<a href="https://star-history.com/#ianyliu/blast-radius-fork&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ianyliu/blast-radius-fork&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ianyliu/blast-radius-fork&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ianyliu/blast-radius-fork&type=Date" />
+ </picture>
+</a>
