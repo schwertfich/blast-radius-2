@@ -375,7 +375,7 @@ It would greatly help if you could contribute to bringing all of these forks int
     * Requires Terraform directory to be init, or else it will not work (even in Docker it also needs init)
 
 
-# Star History
+## Star History
 
 <a href="https://star-history.com/#ianyliu/blast-radius-fork&Date">
  <picture>
