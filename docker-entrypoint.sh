@@ -30,8 +30,8 @@ cd /data-rw
 [ -d '.terraform' ] && terraform get
 
 # Reinitialize for some reason
-if [ -n $CHDIR ]; then
-  terraform -chdir=$CHDIR init
+if [ -n "$CHDIR" ] && [ -d "$CHDIR" ]; then
+  terraform -chdir="$CHDIR" init
 else
   terraform init
 fi
