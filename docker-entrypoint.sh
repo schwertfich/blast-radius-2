@@ -9,8 +9,8 @@ if [ "${1}" != "blast-radius" ]; then
 fi
 
 # Assert CLI args are overwritten, otherwise set them to preferred defaults
-export TF_CLI_ARGS_get=${TF_CLI_ARGS_get:'-update'}
-export TF_CLI_ARGS_init=${TF_CLI_ARGS_init:'-input=false'}
+export TF_CLI_ARGS_get=${TF_CLI_ARGS_get:-'-update'}
+export TF_CLI_ARGS_init=${TF_CLI_ARGS_init:-'-input=false'}
 
 # Inside the container
 # Need to create the upper and work dirs inside a tmpfs.
@@ -30,7 +30,11 @@ cd /data-rw
 [ -d '.terraform' ] && terraform get
 
 # Reinitialize for some reason
-terraform init
+if [ -n "$CHDIR" ] && [ -d "$CHDIR" ]; then
+  terraform -chdir="$CHDIR" init
+else
+  terraform init
+fi
 
 # it's possible that we're in a sub-directory. leave.
 cd /data-rw
