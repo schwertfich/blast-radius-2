@@ -32,6 +32,7 @@ cd /data-rw
 # Reinitialize for some reason
 if [ -n "$CHDIR" ] && [ -d "$CHDIR" ]; then
   terraform -chdir="$CHDIR" init
+  echo "Initializing Terraform in directory: $CHDIR"
 else
   terraform init
 fi
