@@ -302,7 +302,7 @@ with various *Terraform* providers, and aren't necessarily ideal. Additional
 examples, particularly demonstrations of best-practices, or of multi-cloud
 configurations strongly desired.
 
-There are more 188 forks as of August 2022, each containing new updates or features of some sort. Notable ones include: 
+There are 258 forks as of October 2024, each containing new updates or features of some sort. Notable ones include: 
 - https://github.com/gruberdev/blast-radius/
 - https://github.com/IBM-Cloud/blast-radius/
 - https://github.com/nishubharti/blast-radius/ 
