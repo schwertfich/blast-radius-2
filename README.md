@@ -84,12 +84,12 @@ blast-radius --serve /path/to/terraform/directory
 
 And you will shortly be rewarded with a browser link http://127.0.0.1:5000/.
 
-[//]: # (You can specify the port number with the `--port` flag:)
+[//]: # (You can specify the host and/or port number with the `--host` and --port` flags:)
 
 [//]: # ()
 [//]: # (```)
 
-[//]: # (blast-radius --serve /path/to/terraform/directory --port=8080)
+[//]: # (blast-radius --serve /path/to/terraform/directory --host 127.0.0.1 --port=8080)
 
 [//]: # (```)
 
@@ -179,6 +179,7 @@ minikube service  k8-blast-radius-service
 * Directory: Defaults to `$PWD` or current directory. The directory in which to look for Terraform files. 
 This is required if the user wants to use a Terraform project as input 
 (instead of uploading a file or pasting DOT script). 
+* `--host`: Defaults to 0.0.0.0. The IP address to bind to, to access the app (http://HOST:5000)
 * `--port`: Defaults to 5000. The port to access the app (http://localhost:PORT) 
 Any valid localhost port is allowed.
 * `--serve`: Starts a webserver locally with Terraform's interactive graph
