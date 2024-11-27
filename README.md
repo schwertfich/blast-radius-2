@@ -61,11 +61,11 @@ The fastest way to run with *Blast Radius* is to install it with
 `pip` to your pre-existing environment:
 
 ```sh
-python -m pip install git+https://github.com/Ianyliu/blast-radius-fork
+python -m pip install git+https://github.com/schwertfich/blast-radius-2
 ```
 or 
 ```sh
-python3 -m pip install git+https://github.com/Ianyliu/blast-radius-fork
+python3 -m pip install git+https://github.com/schwertfich/blast-radius-2
 ```
 
 You can then run Blast Radius from the command line:
